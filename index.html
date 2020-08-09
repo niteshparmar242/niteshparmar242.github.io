@@ -7,7 +7,18 @@
 
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="aos.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+  <script src="aos.js"></script>
+
+
 </head>
 <body>
   <header class="header">
@@ -89,10 +100,10 @@
 <section class="zero">
   <div class="container">
   <div class="row justify-content-md-center">
-    <div class="col col-lg-5">
+    <div data-aos="fade-up" class="col col-lg-5">
      <img src="road-walk.webp" alt="">
     </div>
-    <div class="col col-lg-7">
+    <div data-aos="fade-down" class="col col-lg-7">
     <h2>Lorem ipsum dolor sit amet. </h2>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </div>
@@ -100,10 +111,13 @@
 </div>
 </section>
 
+
+
+
 <section class="one">
 <div class="page_center">
-  <div class="card_sect">
-    <div class="card" style="width: 18rem;">
+  <div  data-aos="fade-left" class="card_sect">
+    <div class="card" data-aos="fade-right" style="width: 18rem;">
       <img src="b.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -111,7 +125,7 @@
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card" data-aos="fade-left" style="width: 18rem;">
       <img src="c.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -119,7 +133,7 @@
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card" data-aos="fade-right" style="width: 18rem;">
       <img src="a.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -127,7 +141,7 @@
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card" data-aos="fade-left" style="width: 18rem;">
       <img src="b.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -155,31 +169,184 @@
   <button class="red" type="button"><i class="icon ion-md-lock"></i> Log in</button>
 
   <div class="segment">
-    <button class="unit" type="button"><i class="icon ion-md-arrow-back"></i></button>
-    <button class="unit" type="button"><i class="icon ion-md-bookmark"></i></button>
-    <button class="unit" type="button"><i class="icon ion-md-settings"></i></button>
+    <button class="unit" type="button"><i class="fa fa-arrow-left"></i></button>
+    <button class="unit" type="button"><i class="fa fa-bookmark"></i></button>
+    <button class="unit" type="button"><i class="fa fa-arrow-right"></i></button>
   </div>
 
   <div class="input-group">
     <label>
       <input type="text" placeholder="Email Address"/>
     </label>
-    <button class="unit" type="button"><i class="icon ion-md-search"></i></button>
+    <button class="unit" type="button"><i class="
+      fa fa-envelope"></i></button>
   </div>
 
 </form>
 </section>
+<footer class="footer">
+	<div class="footer-content pt40 pb20">
+		<div class="wrapper">
+			<div class="fopoterinner">
+				<div class="w33 ib leftFooterlogo vt mw100">
+					<div class="footerLogo"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="100%" height="100%" viewBox="0.6990000605583191 0 86.60199737548828 100"><g fill="url(#SvgjsLinearGradient1034)"><path d="M44 0l43.301 25v50L44 100 .699 75V25z"></path></g><defs><linearGradient gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1034" x1="-2.6505005955695746" y1="96.65049934387204" x2="90.65049809217453" y2="3.3495006561279217"><stop stop-color="#ed7cbe" offset="0.05"></stop><stop stop-color="#ce1c84" offset="0.95"></stop></linearGradient></defs></svg></div>
+				</div>
+				<div class="w66 ib followUsIcon vt mw100">
+					<div class="rightFollowUs text-right">
+						<ul>
+							<li class="followTitle"><span>Follow us!</span></li>
+							<li>
+								<a href="#"><svg height="100%" preserveaspectratio="none" viewbox="0 0 504.4 504.4" width="100%" xmlns="http://www.w3.org/2000/svg">
+								<path d="M377.6.2H126.4C56.8.2 0 57 0 126.6v251.6c0 69.2 56.8 126 126.4 126H378c69.6 0 126.4-56.8 126.4-126.4V126.6C504 57 447.2.2 377.6.2zM168 408.2H96v-208h72v208zm-36.4-240c-20.4 0-36.8-16.4-36.8-36.8s16.4-36.8 36.8-36.8 36.8 16.4 36.8 36.8c-.4 20.4-16.8 36.8-36.8 36.8zm276.8 240H348V307.4c0-24.4-3.2-55.6-36.4-55.6-34 0-39.6 26.4-39.6 54v102.4h-60v-208h56v28h1.6c8.8-16 29.2-28.4 61.2-28.4 66 0 77.6 38 77.6 94.4v114z"></path></svg></a>
+							</li>
+							<li>
+								<a href="#"><svg height="100%" preserveaspectratio="none" viewbox="0 0 504 504" width="100%" xmlns="http://www.w3.org/2000/svg">
+								<path d="M377.6 0H126C56.8 0 0 56.8 0 126.4V378c0 69.2 56.8 126 126 126h251.6c69.6 0 126.4-56.8 126.4-126.4V126.4C504 56.8 447.2 0 377.6 0zm-58 252H272v156h-60V252h-32v-64h28v-27.2c0-25.6 12.8-66 66.8-66H324V148h-34.8c-5.6 0-13.2 3.6-13.2 16v24h49.2l-5.6 64z"></path></svg></a>
+							</li>
+							<li>
+								<a href="#"><svg height="100%" preserveaspectratio="none" viewbox="0 0 504.4 504.4" width="100%" xmlns="http://www.w3.org/2000/svg">
+								<path d="M296.8 219.8c-10-14-26.4-23.2-44.8-23.2s-34.8 9.2-44.8 23.2c-6.4 9.2-10.4 20.4-10.4 32.4 0 30.4 24.8 55.2 55.2 55.2 30.4 0 55.2-24.8 55.2-55.2 0-12-4-23.2-10.4-32.4z"></path>
+								<path d="M331.6 220.2c4 8 6.4 20.8 6.4 32 0 47.2-38.4 86-86 86s-86-38.4-86-86c0-11.6 2.4-24 6.4-32H124v128.4c0 16.8 14.8 31.6 31.6 31.6h192.8c16.8 0 31.6-14.8 31.6-31.6V220.2h-48.4zm34-88.8h-46.4v53.2H372V131z"></path>
+								<path d="M377.6.2H126.4C56.8.2 0 57 0 126.6v251.6c0 69.2 56.8 126 126.4 126H378c69.6 0 126.4-56.8 126.4-126.4V126.6C504 57 447.2.2 377.6.2zM408 219.8v128.8c0 33.6-26 59.6-59.6 59.6H155.6c-33.6 0-59.6-26-59.6-59.6V155.8c0-33.6 26-59.6 59.6-59.6h192.8c33.6 0 59.6 26 59.6 59.6v64z"></path></svg></a>
+							</li>
+							<li>
+								<a href="#"><svg height="100%" preserveaspectratio="none" viewbox="0 0 504.4 504.4" width="100%" xmlns="http://www.w3.org/2000/svg">
+								<path d="M377.6.2H126.4C56.8.2 0 57 0 126.6v251.6c0 69.2 56.8 126 126.4 126H378c69.6 0 126.4-56.8 126.4-126.4V126.6C504 57 447.2.2 377.6.2zm19.6 181.2C379.6 279.8 281.6 363 252 381.8c-29.6 19.2-56.4-7.6-66.4-27.6-11.2-22.8-44.8-147.6-53.6-157.6-8.8-10.4-35.2 10.4-35.2 10.4L84 190.2s53.6-63.6 94-71.2c43.6-8.8 43.6 65.6 54 106.8 10 40 16.8 62.8 25.6 62.8s25.6-22.4 44-56.4-.8-64.4-36.8-42.8c14.4-85.6 150-106.4 132.4-8z"></path></svg></a>
+							</li>
+							<li>
+								<a href="#"><svg height="100%" preserveaspectratio="none" viewbox="0 0 504 504" width="100%" xmlns="http://www.w3.org/2000/svg">
+								<path d="M219.6 202.4v92l84.8-45.6z"></path>
+								<path d="M377.6 0H126C56.8 0 0 56.8 0 126.4V378c0 69.2 56.8 126 126 126h251.6c69.6 0 126.4-56.8 126.4-126.4V126.4C504 56.8 447.2 0 377.6 0zM408 264.4c0 26.4-2.4 53.2-2.4 53.2s-2.8 22.4-12 32.4c-12 13.2-25.2 13.2-31.2 14-44 3.2-110 3.6-110 3.6s-82-1.2-107.2-3.6c-6.8-1.2-22.8-.8-34.8-14-9.6-10-12-32.4-12-32.4S96 290.8 96 264.4v-24.8c0-26.4 2.4-53.2 2.4-53.2s2.8-22.4 12-32.4c12-13.2 25.2-13.6 31.2-14.4C186 136.4 252 136 252 136s66 .4 110 3.6c6 .8 19.6 1.2 31.6 14 9.6 10 12 32.8 12 32.8s2.4 26.8 2.4 53.2v24.8z"></path></svg></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footerFiveColumn pt40 pb30">
+				<div class="w20 ib mw100 mobile-center firstColumn vt firstColumnv1">
+					<div class="footerColumnMenu">
+						<div class="columnTitle bold fontWhite">
+							<h5>Overview</h5>
+						</div>
+						<div class="columnFirst">
+							
+								<ul>
+									<li><a href="#" role="menuitem" target="_self">SalesLogs Overview</a></li>
+									<li><a href="#" role="menuitem" target="_self">Pricing</a></li>
+									<li><a href="#" role="menuitem" target="_self">API Integration</a></li>
+									<li><a href="#" role="menuitem" target="_self">Testimonials</a></li>
+									<li><a href="#" role="menuitem" target="_self">About Us</a></li>
+								</ul>
+							
+						</div>
+					</div>
+				</div>
+				<div class="w20 ib mw100 mobile-center vt firstColumnv2">
+					<div class="footerColumnMenu">
+						<div class="columnTitle bold fontWhite">
+							<h5>Features</h5>
+						</div>
+						<div class="columnFirst">
+							
+								<ul>
+									<li><a href="#" role="menuitem" target="_self">KPI Dashboards</a></li>
+									<li><a href="#" role="menuitem" target="_self">Leaderboards</a></li>
+									<li><a href="#" role="menuitem" target="_self">Syncronized DataGrid</a></li>
+									<li><a href="#" role="menuitem" target="_self">Cross Channel Communication</a></span></li>
+									<li><a href="#">Targets Manager</a></li>
+									<li><a href="#" role="menuitem" target="_self">History Tracker</a></li>
+									<li><a href="#" role="menuitem" target="_self">Multi-Level Permissions</a></li>
+								</ul>
+						
+						</div>
+					</div>
+				</div>
+				<div class="w20 ib mw100 mobile-center vt firstColumnv3">
+					<div class="footerColumnMenu">
+						<div class="columnTitle bold fontWhite">
+							<h5>Benefits by team</h5>
+						</div>
+						<div class="columnFirst">
+							
+							
+								
+								<ul>
+									<li><a href="#" role="menuitem" target="_self">Sales</a></li>
+									<li class="hs-menu-item hs-menu-depth-1"><a href="#" role="menuitem" target="_self">Finance</a></li>
+									<li class="hs-menu-item hs-menu-depth-1"><a href="#" role="menuitem" target="_self">Aftermarket</a></li>
+									<li class="hs-menu-item hs-menu-depth-1"><a href="#" role="menuitem" target="_self">Wholesale</a></li>
+								</ul>
+							
+						</div>
+					</div>
+				</div>
+				<div class="w20 ib mw100 mobile-center vt firstColumnv4">
+					<div class="footerColumnMenu">
+						<div class="columnTitle bold fontWhite">
+							<h5>Benefits by role</h5>
+						</div>
+						<div class="columnFirst">
+							
+					
+								
+								<ul>
+									<li><a href="#" role="menuitem" target="_self">Owners and General Managers</a></span></li>
+									<li><a href="#" role="menuitem" target="_self">Department Managers</a></span></li>
+									<li><a href="#" role="menuitem" target="_self">Team Members</a></span></li>
+								</ul>
+							
+						</div>
+					</div>
+				</div>
+				<div class="w20 ib mw100 mobile-center vt">
+					<div class="footerColumnMenu">
+						<div class="columnTitle fontWhite bold text-right pb10 ctaMainTitle">
+							<h5>Curious to know more?</h5>
+						</div>
+						<div class="rightSideCta">
+							<div class="FooterCta btnfooter text-center">
+								<a href="javascript:void(0)">Contact Sales</a><br>
+								<span class="fontWhite">-or-</span> 
+							</div>
+							<div class="FooterCta btnfooter text-center btnfooterV2">
+								<a href="javascript:void(0)">Chat with us</a>
+							</div>
+							<div class="FooterCta btnfooter text-center btnfooterV3">
+								<div class="columnTitle bold fontWhite ctaTitle">
+									<h5>Get what you need</h5>
+								</div><a href="javascript:void(0)">BOOK A DEMO</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyRight text-center">
+				<div class="innerCopyRight fontWhite pt20">
+					<p>©Copyright 2005-2020 Pty Ltd - All rights are reserved</p>
+				</div>
+			</div>
+		</div>
+  </div>
+</footer>
 
+</div>
+
+<script>
+  AOS.init({
+    duration: 2000,
+  });
+</script>
 
 
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="bootstrap\js\bootstrap.bundle.min.js">
-  <script type="text/javascript" src="bootstrap\js\bootstrap.min.js">
-
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+  <script type="text/javascript" src="bootstrap.bundle.min.js">
+  </script>
+  <script type="text/javascript" src="bootstrap.min.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
   </script>
 </body>
 </html>
